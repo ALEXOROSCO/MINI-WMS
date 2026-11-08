@@ -13,9 +13,26 @@ GitHub
 Estrutura
 backend/ frontend/ src/
 
+
+
 Como executar
-Clone o projeto
-Execute a aplicação
-Acesse localhost
+Pré-requisitos
+Java 17+
+Maven
+Git
+Instalação
+Clone o projeto:
+
+git clone https://github.com/ALEXOROSCO/MINI-WMS.git
+Entre na pasta:
+
+cd MINI-WMS
+Execute:
+
+mvn spring-boot:run
+A aplicação estará disponível em:
+
+http://localhost:8080
+
 Autor
 Alexandre Orosco
